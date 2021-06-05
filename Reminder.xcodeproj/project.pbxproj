@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		B7C6AA7E26624D620017C928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AA7D26624D620017C928 /* AppDelegate.swift */; };
 		B7C6AA8026624D620017C928 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AA7F26624D620017C928 /* SceneDelegate.swift */; };
-		B7C6AA8226624D620017C928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AA8126624D620017C928 /* ViewController.swift */; };
 		B7C6AA8526624D620017C928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6AA8326624D620017C928 /* Main.storyboard */; };
 		B7C6AA8726624D660017C928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C6AA8626624D660017C928 /* Assets.xcassets */; };
 		B7C6AA8A26624D660017C928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C6AA8826624D660017C928 /* LaunchScreen.storyboard */; };
 		B7C6AA9526624D660017C928 /* ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AA9426624D660017C928 /* ReminderTests.swift */; };
 		B7C6AAA026624D660017C928 /* ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AA9F26624D660017C928 /* ReminderUITests.swift */; };
+		B7C6AAB2266250F70017C928 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AAB1266250F70017C928 /* Reminder.swift */; };
+		B7C6AAB4266251970017C928 /* ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AAB3266251970017C928 /* ReminderService.swift */; };
+		B7C6AAB6266AE6D40017C928 /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AAB5266AE6D40017C928 /* ReminderCell.swift */; };
+		B7C6AAB8266B0F240017C928 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AAB7266B0F240017C928 /* RemindersViewController.swift */; };
+		B7C6AABA266B24580017C928 /* FavouriteReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AAB9266B24580017C928 /* FavouriteReminderViewController.swift */; };
+		B7C6AABC266B3AB70017C928 /* NewReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6AABB266B3AB70017C928 /* NewReminderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		B7C6AA7A26624D620017C928 /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C6AA7D26624D620017C928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7C6AA7F26624D620017C928 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7C6AA8126624D620017C928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7C6AA8426624D620017C928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7C6AA8626624D660017C928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7C6AA8926624D660017C928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		B7C6AA9B26624D660017C928 /* ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C6AA9F26624D660017C928 /* ReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderUITests.swift; sourceTree = "<group>"; };
 		B7C6AAA126624D660017C928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C6AAB1266250F70017C928 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		B7C6AAB3266251970017C928 /* ReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderService.swift; sourceTree = "<group>"; };
+		B7C6AAB5266AE6D40017C928 /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
+		B7C6AAB7266B0F240017C928 /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		B7C6AAB9266B24580017C928 /* FavouriteReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteReminderViewController.swift; sourceTree = "<group>"; };
+		B7C6AABB266B3AB70017C928 /* NewReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReminderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +109,11 @@
 		B7C6AA7C26624D620017C928 /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
-				B7C6AA7D26624D620017C928 /* AppDelegate.swift */,
-				B7C6AA7F26624D620017C928 /* SceneDelegate.swift */,
-				B7C6AA8126624D620017C928 /* ViewController.swift */,
-				B7C6AA8326624D620017C928 /* Main.storyboard */,
+				B7C6AAAD2662503C0017C928 /* Model */,
+				B7C6AAAE266250420017C928 /* View */,
+				B7C6AAAF266250480017C928 /* Controller */,
+				B7C6AAB0266250C00017C928 /* Supporting Files */,
 				B7C6AA8626624D660017C928 /* Assets.xcassets */,
-				B7C6AA8826624D660017C928 /* LaunchScreen.storyboard */,
 				B7C6AA8B26624D660017C928 /* Info.plist */,
 			);
 			path = Reminder;
@@ -126,6 +135,44 @@
 				B7C6AAA126624D660017C928 /* Info.plist */,
 			);
 			path = ReminderUITests;
+			sourceTree = "<group>";
+		};
+		B7C6AAAD2662503C0017C928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6AAB1266250F70017C928 /* Reminder.swift */,
+				B7C6AAB3266251970017C928 /* ReminderService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7C6AAAE266250420017C928 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6AA8326624D620017C928 /* Main.storyboard */,
+				B7C6AA8826624D660017C928 /* LaunchScreen.storyboard */,
+				B7C6AAB5266AE6D40017C928 /* ReminderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7C6AAAF266250480017C928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6AAB7266B0F240017C928 /* RemindersViewController.swift */,
+				B7C6AAB9266B24580017C928 /* FavouriteReminderViewController.swift */,
+				B7C6AABB266B3AB70017C928 /* NewReminderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7C6AAB0266250C00017C928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6AA7D26624D620017C928 /* AppDelegate.swift */,
+				B7C6AA7F26624D620017C928 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C6AA8226624D620017C928 /* ViewController.swift in Sources */,
+				B7C6AAB6266AE6D40017C928 /* ReminderCell.swift in Sources */,
+				B7C6AABC266B3AB70017C928 /* NewReminderViewController.swift in Sources */,
+				B7C6AAB2266250F70017C928 /* Reminder.swift in Sources */,
+				B7C6AAB8266B0F240017C928 /* RemindersViewController.swift in Sources */,
 				B7C6AA7E26624D620017C928 /* AppDelegate.swift in Sources */,
 				B7C6AA8026624D620017C928 /* SceneDelegate.swift in Sources */,
+				B7C6AABA266B24580017C928 /* FavouriteReminderViewController.swift in Sources */,
+				B7C6AAB4266251970017C928 /* ReminderService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
