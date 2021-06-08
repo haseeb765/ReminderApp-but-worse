@@ -1,1 +1,1 @@
-# ReminderApp-but-worse
+# ReminderApp-clone
